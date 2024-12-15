@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+	 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="iconpes.png" >
+	<link rel="stylesheet" href="info6.css">
+	<title>TEMA 6</title>
+</head>
+<body>
+	<header>
+		
+		<h1 class="holograma">Tema 6: Métodos<span class="glinda"> de ordenación</span></h1>
+		
+		<img src="SX.png" width="170px" alt="" class="img">
+	</header>
+
+	<div class="contgrande2">
+		<div class="conteni2">
+			<h3 class="subt">Definición</h3>
+			<p class="pa">Son aquellos métodos de clasificación o acomodo de datos que se ejecutan completamente en la memoria principal (RAM) de la computadora. Esto significa que todos los datos que se están ordenando caben en la memoria y no necesitan acceder a almacenamiento externo (como discos duros o bases de datos) durante el proceso de ordenamiento.
+				
+			</p>
+		</div>
+		<div class="contgrande1">
+			<div class="contenidos">
+				<h3 class="subt">Algoritmos de ordenamiento interno</h3>
+				<p class="p">Son aquellos que trabajan completamente en la memoria principal (RAM) del sistema y poseén las siguientes características:</p>
+				<ul class="ul">
+					<li class="li">Los datos a ordenar caben completamente en la memoria principal.</li>
+					<li class="li">Son más rápidos porque no requieren acceder a dispositivos de almacenamiento externo.</li>
+					<li class="li">Adecuados para conjuntos de datos pequeños o medianos que pueden cargarse en la memoria.</li>
+					
+				</ul>
+				<p class="p">
+				Ejemplos de algoritmos internos:
+				<ul class="ul">
+					<li class="li">Bubble Sort (Ordenamiento Burbuja)</li>
+					<li class="li">Quick Sort (Ordenamiento Rápido)</li>
+					<li class="li">Merge Sort (Ordenamiento por Fusión)</li>
+					<li class="li">Insertion Sort (Ordenamiento por Inserción)</li>
+					<li class="li">Selection Sort (Ordenamiento por Selección)</li>
+					
+				</ul>
+
+				</p>
+			</div>
+			<div class="contenidos">
+				<h3 class="subt">Algoritmos de ordenamiento externo</h3>
+				<p class="p">Son aquellos que trabajan con datos que no caben en la memoria principal y se almacenan en dispositivos de almacenamiento externo, como discos duros o unidades SSD. Poseén las siguientes características: </p>
+				<ul class="ul">
+					<li class="li">Se utilizan cuando los datos son demasiado grandes para la memoria RAM.</li>
+					<li class="li">Los datos se procesan en bloques que se leen y escriben desde el almacenamiento externo.</li>
+					<li class="li">El rendimiento depende en gran medida de la velocidad de acceso al almacenamiento externo.</li>				
+				</ul>
+				<p class="p">Ejemplos de algoritmos externos</p>
+				<ul class="ul">
+					<li class="li">External Merge Sort (Ordenamiento por Fusión Externa): Divide los datos en bloques, los ordena en la memoria y luego combina los bloques ordenados.</li>
+					<li class="li">Algoritmos basados en conteo o distribución, como External Radix Sort.</li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+<br><br><br>
+
+
+		<div class="contgrande3">
+			<div class="contenidos3">		
+				<img src="burbuja.png" alt="" class="imgr">
+			</div>
+			<div class="contenidos3">
+				<h3 class="subt">BurbleSort</h3>
+				<p class="pa">El algoritmo de burbuja es un algoritmo de ordenamiento interno que funciona comparando cada par de elementos adyacentes y swaps them si están en el orden incorrecto. Este proceso se repite hasta que no hay más swaps necesarios, lo que indica que la lista está ordenada. <br>
+				El algoritmo de burbuja tiene una complejidad de tiempo de O(n^2), lo que lo hace ineficiente para grandes conjuntos de datos. Sin embargo, es fácil de implementar y puede ser útil para pequeños conjuntos de datos.<br>
+				El ordenamiento por burbuja es un algoritmo sencillo que compara elementos adyacentes y los intercambia si están en el orden incorrecto.
+				</p>
+			</div>
+		</div>
+		<div class="contgrande3">
+			<div class="contenidos3">
+				<h3 class="subt"><span class="glinda"> ShellSort </span></h3>
+				<p class="pa">El algoritmo de ordenamiento de Shell es un algoritmo de ordenamiento interno que funciona comparando elementos que están separados por una distancia fija, llamada "gap". El algoritmo comienza con un gap grande y lo reduce gradualmente hasta que se llega a un gap de 1, lo que es equivalente a un algoritmo de ordenamiento de inserción. 	<br>El algoritmo de ordenamiento de Shell tiene una complejidad de tiempo de O(n log n), lo que lo hace más eficiente que el algoritmo de burbuja para grandes conjuntos de datos. Sin embargo, puede ser más lento que el algoritmo de clasificación rápida para conjuntos de datos muy grandes.
+				</p>
+			</div>
+			<div class="contenidos3">		
+				<img src="shell.jpg" alt="" class="imgr">
+			</div>
+		</div>
+		<div class="contgrande3">
+			<div class="contenidos3">		
+				<img src="intercala.jpeg" alt="" class="imgr">
+			</div>
+			<div class="contenidos3">
+				<h3 class="subt">Intercalación</h3>
+				<p class="pa">El algoritmo de intercalación es un algoritmo de ordenamiento externo que funciona dividiendo la lista en bloques más pequeños, ordenando cada bloque individualmente, y luego intercalando los bloques ordenados para formar la lista ordenada final.<br>
+				El algoritmo de intercalación tiene una complejidad de tiempo de O(n log n), lo que lo hace más eficiente que el algoritmo de burbuja para grandes conjuntos de datos. Sin embargo, puede requerir una gran cantidad de memoria para almacenar los bloques intermedios.<br>
+				
+				</p>
+			</div>
+		</div>
+		<div class="contgrande3">
+			<div class="contenidos3">
+				<h3 class="subt"><span class="glinda"> Mezcla directa </span></h3>
+				<p class="pa">El algoritmo de mezcla directa es un algoritmo de ordenamiento externo que funciona dividiendo la lista en dos sublistas, ordenando cada sublista individualmente, y luego mezclando las sublistas ordenadas para formar la lista ordenada final.	<br>El algoritmo de mezcla directa tiene una complejidad de tiempo de O(n log n), lo que lo hace más eficiente que el algoritmo de burbuja para grandes conjuntos de datos. Sin embargo, puede requerir una gran cantidad de memoria para almacenar las sublistas intermedias.<br><br>DIVIDE Y VENCERÁS
+			</div>
+			<div class="contenidos3">		
+				<img src="mezdir.png" alt="" class="imgr">
+			</div>
+		</div>
+<br>
+<br>
+<br>
+
+
+	
+
+	<section class="video">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/pqZ04TT15PQ?si=Wt29Cr_nPftln1DZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="v1"></iframe>
+	</section>
+
+	<div class="contgrande1">
+		<div class="contenidosbtn">
+			<div class="btn">
+				<a href="index.html" class="fa-solid fa-house-user" id="casa" title="página principal"></a>
+				<p class="pa2">Regresar al inicio</p>
+			</div>
+		</div>
+		<div class="contenidosbtn">
+			<div class="btn">
+			<a href="#emergente" class="fa fa-book-open" id="MAp" title="Material de apoyo"></a>
+			<p class="pa2">Material de apoyo</p>
+		</div>
+	</div>
+</div>
+
+<div id="emergente" class="modal">
+		<div class="mod_content">
+			<div class="close-btn">
+			<a href="#" aria-label="Cerrar modal">&times;</a>
+			</div>
+			<h2 class="titover">Ejercicio resuelto</h2>
+			<p class="p">Crear un programa que contenga el método burbuja</p>
+			<pre>
+		<code>
+public class Main {
+    public static void main(String arg[]){  
+        int vec[]={6,8,3,5,4,9,0,2,1,7,10,-1,-2,10};
+        
+        System.out.print("Vector sin ordenar: ");
+        for(int i=0;i<vec.length;i++){
+            System.out.print(vec[i]+" ");
+        }
+        
+        for(int i=0; i < vec.length-1; i++){
+            for(int j=0; j < (vec.length-1-i); j++){
+                if(vec[j] > vec[j+1]){
+                    int aux=vec[j];
+                    vec[j]=vec[j+1];
+                    vec[j+1]=aux;
+                }    
+            }
+        }
+        
+        System.out.print("\nVector ordenado: ");
+        for(int i=0;i<vec.length;i++){
+            System.out.print(vec[i]+" ");
+        }
+        System.out.println("");
+    }    
+}
+
+		<<</code>
+		</pre>
+		<p class="pre">El resultado de dicho código será:<br>Vector sin ordenar:<br> 6 8 3 5 4 9 0 2 1 7 10 -1 -2 10 
+<br>Vector ordenado:<br> -2 -1 0 1 2 3 4 5 6 7 8 9 10 10 
+		</div>
+	</div>
+
+
+
+	<footer class="foot">
+                <div class="g1">
+                    
+                    <div class="box">
+                        <h2>SOBRE EL PROYECTO</h2>
+                        <P>Josué Antonio Sanchez</P>
+                        <p>Jhonnathan Gonzalez Vazquez</p>
+                        <P>Javier Prisciliano Molina</P>
+                        <p>Jhoan Picazo Teje</p>
+                        <P>Jabnel Prisciliano Molina</P>
+                        <br>
+                        <p>Tercer semestre-3101</p>
+                    </div>
+                    <div class="box">
+                        <h2>S I G U E N O S </h2>
+                        <div class="rsoc">
+
+                            <a href="https://www.facebook.com/josue.antoni.5439" class="fab fa-facebook" title="Josué Antonio Sánchez"></a>
+
+                            <a href="https://www.facebook.com/jhonnathan.gonzalez.96" class="fab fa-facebook" title="Jhonnathan Gonzalez Vazquez"></a>
+                            
+                            <a href="https://www.facebook.com/profile.php?id=100023862071874" class="fab fa-facebook" title="Javier Prisciliano Molina"></a>
+
+                            <a href="https://www.facebook.com/jhoan.teje.9" class="fab fa-facebook" title="Angel Jhoan Picazo Teje"></a>
+
+                            <a href="https://teshuixquilucan.edomex.gob.mx/isc"  title="I.S.C TESH">I.S.C</a>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="g2">
+                    <small>&copy 2024 <b>||Josué Antonio S. || Jhonnathan González V. || Javier Prisciliano M. || Jhoan Picazo T. ||</b> - Todos los
+                    Derechos Reservados</small>
+                </div>
+
+            </footer>
+
+</body>
+</html>

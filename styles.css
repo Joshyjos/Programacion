@@ -1,0 +1,335 @@
+@Media(max-width:767px){
+     body{
+    background-image: linear-gradient( rgb(0 0 0 /.75),rgb(0 0 0/.75)) ,url(fondoprg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+
+}
+header{
+    margin-top: -1cm;
+    padding: 10px;
+    text-align: center;
+    color: #d2ecff;
+    font-size: 1.1cm;
+    background-color: rgba(0, 0, 0, .5);
+}
+.contgrande{
+    display: inline;
+    padding-bottom: 3cm;
+    
+}
+.contgrande h2{
+    
+    text-align: center;
+    font-size: 1.2cm;
+    color: #0062ff;
+}
+
+.contlist{
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    transition: all 300ms ease;
+
+}
+.contlist2{
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 2cm;
+    margin-right: 2cm;
+
+}
+.temas{
+    text-decoration: none;
+}
+
+
+/*Para seguir*/
+.continuar{
+    color: #e3f0fb;
+    transition: all ease .3s;
+
+}
+.continuar:hover{
+    color: blanchedalmond;
+    text-shadow: 5px 8px 5px #ffc520;
+}
+
+/*Para desplegables*/
+.contlist label{
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+    background: white;
+    color: #003bd6;
+    cursor: pointer;
+    margin-bottom: 2px;
+    transition: all 300ms ease;
+    border-radius: 10px;
+}
+.contlist label:hover{
+    color: white;
+    background: #2e2e2e;
+    text-shadow: 5px 8px 5px #00F4FF;
+}
+.contlist .contenido-acordeon{
+    font-size: .5cm;
+    background-color: #3d3d3d;
+    padding: 0px;
+    margin: 0px 0px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 300ms ease;
+}
+.contlist .contenido-acordeon p{
+    margin: 10px 20px;
+    color: #ebf7ff;
+}
+.btn-acordeon:checked ~ .contenido-acordeon{
+    max-height: 600px;
+    padding: 15px 0px;
+
+}
+.btn-acordeon{
+    display: none;
+}
+
+
+/*footer*/
+.foot{
+    width: 100%;
+    background-color: #0e2c43;
+    margin-top: 3rem;
+
+}
+.foot .g1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: block;
+    align-content: space-evenly;
+    
+}
+.foot .g1 .box{
+    margin-left: 1.5cm;
+   
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    margin-left: -.7cm;
+    text-align: center;
+}
+
+
+.foot .g1 .box h2{
+    color: #89ccf0;
+    margin-bottom:30px;
+    font-size: 30px;
+}
+.foot .g1 .box p{
+    color: #e3f0fb;
+    margin-bottom:10px;  
+}
+.foot .g1 .box .rsoc a{
+     
+    font-size: .6cm;
+    display: inline-block;
+    text-decoration: none;
+    width: 14%;
+    height: 60px;
+    line-height: 60px;
+    color: #135279;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+    margin-bottom: 1cm;
+}
+.tesh{
+    width: 40px;
+}
+.foot .g1 .box .rsoc a:hover{
+    color: #002CEB;
+    filter: drop-shadow(2px 2px 20px #e3f0fb);
+}
+.foot .g2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+.foot .g2 small{
+    font-size: 15px;
+}
+}
+
+
+
+
+
+@Media(min-width:768px){
+    body{
+    background-image: linear-gradient( rgb(0 0 0 /.75),rgb(0 0 0/.75)) ,url(fondoprg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+
+}
+header{
+    margin-top: -1cm;
+    padding: 10px;
+    text-align: center;
+    color: #d2ecff;
+    font-size: 1.1cm;
+    background-color: rgba(0, 0, 0, .5);
+}
+.contgrande{
+    display: inline;
+    padding-bottom: 3cm;
+    
+}
+.contgrande h2{
+    text-align: center;
+    font-size: 1.2cm;
+    color: #0062ff;
+}
+
+.contlist{
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 3cm;
+    margin-right: 3cm;
+    transition: all 300ms ease;
+
+}
+.contlist2{
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 3cm;
+    margin-right: 3cm;
+
+}
+.temas{
+    text-decoration: none;
+}
+
+
+/*Para seguir*/
+.continuar{
+    color: #e3f0fb;
+    transition: all ease .3s;
+
+}
+.continuar:hover{
+    color: blanchedalmond;
+    text-shadow: 5px 8px 5px #ffc520;
+}
+
+/*Para desplegables*/
+.contlist label{
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+    background: white;
+    color: #003bd6;
+    cursor: pointer;
+    margin-bottom: 2px;
+    transition: all 300ms ease;
+    border-radius: 10px;
+}
+.contlist label:hover{
+    color: white;
+    background: #2e2e2e;
+    text-shadow: 5px 8px 5px #00F4FF;
+}
+.contlist .contenido-acordeon{
+    font-size: .5cm;
+    background-color: #3d3d3d;
+    padding: 0px;
+    margin: 0px 0px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 300ms ease;
+}
+.contlist .contenido-acordeon p{
+    margin: 10px 20px;
+    color: #ebf7ff;
+}
+.btn-acordeon:checked ~ .contenido-acordeon{
+    max-height: 600px;
+    padding: 15px 0px;
+
+}
+.btn-acordeon{
+    display: none;
+}
+
+
+/*footer*/
+.foot{
+    width: 100%;
+    background-color: #0e2c43;
+    margin-top: 3rem;
+
+}
+.foot .g1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-content: space-evenly;
+    
+}
+.foot .g1 .box{
+    margin-left: 5cm;
+   
+    justify-content: center;
+    align-items: center;
+}
+
+
+.foot .g1 .box h2{
+    color: #89ccf0;
+    margin-bottom:30px;
+    font-size: 30px;
+}
+.foot .g1 .box p{
+    color: #e3f0fb;
+    margin-bottom:10px;  
+}
+.foot .g1 .box .rsoc a{
+    font-size: .6cm;
+    display: inline-block;
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: #135279;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.tesh{
+    width: 40px;
+}
+.foot .g1 .box .rsoc a:hover{
+    color: #002CEB;
+    filter: drop-shadow(2px 2px 20px #e3f0fb);
+}
+.foot .g2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+.foot .g2 small{
+    font-size: 15px;
+}
+
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+	 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="iconpes.png" >
+	<link rel="stylesheet" href="Informaciont135.css">
+	<title>TDA´S</title>
+</head>
+<body>
+	<header>
+		
+		<h1 class="holograma2">Tema 1: Ejemplos de TDA's</h1>
+		<a href="index.html" class="fa-solid fa-house-user" title="página principal"></a>
+	</header>
+
+	<div class="contgrande1">
+		<div class="contenidos">
+			<h3 class="subt">Definición</h3>
+			<p class="p">Los Tipos de Datos Abstractos (TDA's) es un modelo matemático y conceptual que describe un conjunto de datos y las operaciones que se pueden realizar sobre ellos, independientemente de cómo están implementados en un lenguaje de programación específico. Los TDAs se centran en qué hacen las estructuras de datos y no en cómo lo hacen, proporcionando una abstracción que permite a los desarrolladores pensar en los datos de manera lógica y funcional.</p>
+		</div>
+		<div class="contenidos">
+			<h3 class="subt">Tipos</h3>
+			<ul class="ul">
+				<li>Pilas: una pila es un TDA que sigue el principio de LIFO </li>
+				<li>Colas: una cola es un TDA que sigue el principio de FIFO </li>
+				<li>Listas: una lista es un TDA que permite almacenar y manipular elementos de manera ordenada.</li>
+				<li>Árboles: un árbol es un TDA que permite representar relaciones entre elementos de manera jerárquica</li>
+				<li>Grafos: un grafo es un TDA que permite representar relaciones entre elementos de manera no jerárquica</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="contgrande2">
+		<div class="conteni2">
+			<h3 class="subt">Manejo de memoria</h3>
+			<p class="pa">El manejo de memoria es un aspecto fundamental en la programación en Java, ya que el lenguaje utiliza una memoria virtual para almacenar y manipular datos. A continuación, se presentan los conceptos de memoria estática y memoria dinámica. Java utiliza un sistema de manejo de memoria automático que incluye:
+				<ul class="ul">
+					<li class="li">Memoria estática.</li>
+					<li class="li">Memoria dinámica.</li>
+				</ul>
+			</p>
+		</div>
+		<div class="contgrande1">
+			<div class="contenidos">
+				<h3 class="subt">Memoria estática</h3>
+				<p class="p">tipo de memoria que se asigna en tiempo de compilación, es decir, cuando el programa se compila. La memoria estática se utiliza para almacenar variables y datos que no cambian durante la ejecución del programa. La ventaja de la memoria estática es que es más rápida y eficiente que la memoria dinámica, ya que no requiere la asignación y desasignación de memoria en tiempo de ejecución.</p>
+			</div>
+			<div class="contenidos">
+				<h3 class="subt">Memoria dinámica</h3>
+				<p class="p">tipo de memoria que se asigna en tiempo de ejecución, es decir, cuando el programa se ejecuta. La memoria dinámica se utiliza para almacenar variables y datos que cambian durante la ejecución del programa. La ventaja de la memoria dinámica es que permite la asignación y desasignación de memoria en tiempo de ejecución, lo que permite una mayor flexibilidad y eficiencia en la programación.</p>
+			</div>
+		</div>
+	</div>
+<br><br><br>
+	<div class="contgrande1">
+		<div class="contenidos">
+			<h3 class="subt">Recursividad</h3>
+			<p class="p">La recursividad es un concepto fundamental en la programación en Java, que se refiere a la capacidad de un método para llamarse a sí mismo. La recursividad se utiliza para resolver problemas que tienen una estructura recursiva, es decir, problemas que se pueden dividir en subproblemas más pequeños que se pueden resolver de manera similar.</p>
+		</div>
+		<div class="contenidos">
+			<h3 class="subt">Ejemplos</h3>
+			<ul class="ul">
+				<li>Factorial de un número: el factorial de un número se puede calcular de manera recursiva, llamando al método factorial con el número decrementado en 1, hasta que se llegue a 1.</li>
+				<li>Suma de una serie de números: la suma de una serie de números se puede calcular de manera recursiva, llamando al método suma con el número siguiente de la serie, hasta que se llegue al final de la serie.</li>
+				<li>Búsqueda en un árbol: la búsqueda en un árbol se puede realizar de manera recursiva, llamando al método búsqueda con el nodo siguiente del árbol, hasta que se encuentre el nodo deseado.</li>
+				
+			</ul>
+		</div>
+	</div>
+
+	<section class="video">
+		<iframe  src="https://www.youtube.com/embed/YwRjEOFxvO0?si=OaoF2boIoSa3SDyp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="v1"></iframe>
+	</section>
+
+	<div class="contgrande1 contg2">
+		<div class="contenidosbtn">
+			<div class="btn btn2">
+				<a href="index.html" class="fa-solid fa-house-user" id="casa" title="página principal"></a>
+				<p class="pa2">Regresar al inicio</p>
+			</div>
+		</div>
+		<div class="contenidosbtn">
+			<div class="btn btn2">
+				<a href="#emergente" class="fa fa-book-open" id="casa" title="Material de apoyo"></a>
+				<p class="pa2">Material de apoyo</p>	
+			</div>
+		</div>
+	</div>
+
+	<div id="emergente" class="modal">
+		<div class="mod_content">
+			<div class="close-btn">
+			<a href="#" aria-label="Cerrar modal">&times;</a>
+			</div>
+			<h2 class="titover">Ejercicio resuelto</h2>
+			<p class="p">Crear un programa que cree una cuentra regresiva de 10-0</p>
+			<pre>
+		<code>
+public class Main {
+    public static void main(String[] args) {
+        int number = 7;
+        countDown(10); // sin recursividad
+        countDownRecursive(10); // con recursividad.
+    }
+
+    public static void countDown(int n) {
+        for (int i = n; i >= 0; i--) {
+            System.out.println(i);
+        }
+        System.out.println("Terminó la cuenta regresiva");
+    }
+
+    public static void countDownRecursive(int n) {
+        if (n < 0) {
+            System.out.println("Terminó la cuenta regresiva");
+            return;
+        }
+        System.out.println("Cuenta " + n);
+        countDownRecursive(--n);
+    }
+}
+		</code>
+		</pre>
+		<div class="p">El resultado de dicho código será: 10,9,8,7,6,5,4,3,2,1</div>
+		</div>
+	</div>
+
+
+
+	<footer class="foot">
+                <div class="g1">
+                    
+                    <div class="box">
+                        <h2>SOBRE EL PROYECTO</h2>
+                        <P>Josué Antonio Sanchez</P>
+                        <p>Jhonnathan Gonzalez Vazquez</p>
+                        <P>Javier Prisciliano Molina</P>
+                        <p>Jhoan Picazo Teje</p>
+                        <P>Jabnel Prisciliano Molina</P>
+                        <br>
+                        <p>Tercer semestre-3101</p>
+                    </div>
+                    <div class="box">
+                        <h2>S I G U E N O S </h2>
+                        <div class="rsoc">
+
+                            <a href="https://www.facebook.com/josue.antoni.5439" class="fab fa-facebook" title="Josué Antonio Sánchez"></a>
+
+                            <a href="https://www.facebook.com/jhonnathan.gonzalez.96" class="fab fa-facebook" title="Jhonnathan Gonzalez Vazquez"></a>
+                            
+                            <a href="https://www.facebook.com/profile.php?id=100023862071874" class="fab fa-facebook" title="Javier Prisciliano Molina"></a>
+
+                            <a href="https://www.facebook.com/jhoan.teje.9" class="fab fa-facebook" title="Angel Jhoan Picazo Teje"></a>
+
+                            <a href="https://teshuixquilucan.edomex.gob.mx/isc"  title="I.S.C TESH">I.S.C</a>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="g2">
+                    <small>&copy 2024 <b>||Josué Antonio S. || Jhonnathan González V. || Javier Prisciliano M. || Jhoan Picazo T. ||</b> - Todos los
+                    Derechos Reservados</small>
+                </div>
+
+            </footer>
+</body>
+</html>
