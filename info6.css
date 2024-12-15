@@ -30,7 +30,7 @@ header a:hover{
 
 .btn{
 	margin-top: .5cm;
-	margin-left: 70%;
+	margin-left: 60%;
 	display: flex;
 	text-align: justify;
 }
@@ -88,7 +88,7 @@ header a:hover{
 	width: 8cm;
 	
 	margin: .5cm;
-	margin-left: 1.2cm;
+	margin-left: 15%;
 
 }
 
@@ -209,6 +209,7 @@ header a:hover{
 	.mod_content{
 		overflow-x: auto;
 		overflow-y: auto;
+		max-height: 500px;
 		color: white;
 		background: black;
 		padding: 30px;
