@@ -36,7 +36,7 @@ header a:hover{
 	text-align: justify;
 }
 .btn2{
-	margin-left: 50%;
+	margin-left: 60%;
 }
 #casa{
 	color: #70a9ea;
@@ -219,6 +219,7 @@ header a:hover{
 	.mod_content{
 		overflow-x: auto;
 		overflow-y: auto;
+		max-height: 500px;
 		color: white;
 		background: black;
 		padding: 30px;
